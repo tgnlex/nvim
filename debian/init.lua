@@ -1,5 +1,5 @@
 require("debian.config")
 require("debian.modules")
-rqeuire("debian.plugins")
+require("debian.plugins")
 
-greet("Alex")
+greet("Alex {Debian}")

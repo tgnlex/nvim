@@ -1,3 +1,3 @@
-require("plugins.treesitter")
-require("plugins.bufferline")
-require("plugins.neo-tree")
+require("arch.plugins.treesitter")
+require("arch.plugins.bufferline")
+require("arch.plugins.neo-tree")

@@ -1,4 +1,4 @@
-require('lib.map')
+require('debian.lib.map')
 local set = vim.keymap.set
 
 vim.g.mapleader = " "

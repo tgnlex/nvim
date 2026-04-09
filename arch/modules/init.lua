@@ -1,2 +1,2 @@
-require('modules.linters')
-require('modules.greeter')
+require('arch.modules.linters')
+require('arch.modules.greeter')

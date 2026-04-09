@@ -1,8 +1,8 @@
-require("config.manager")
-require("config.colors")
-require("config.options")
-require("config.keymaps")
-require("config.autocommands")
+require("arch.config.manager")
+require("arch.config.colors")
+require("arch.config.options")
+require("arch.config.keymaps")
+require("arch.config.autocommands")
 
 
 
