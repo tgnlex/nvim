@@ -10,14 +10,29 @@ return {
       config = function()
         require("mason-lspconfig").setup({
           ensure_installed = {
+            "pkgbuild_language_server",
             "lua_ls",
             "rust_analyzer",
             "clangd",
             "eslint",
             "rome",
-            "pyre"
+            "pyre",
+            "bashls",
+
           }
         })
+      end
+    },
+    {
+      "neovim/nvim-lspconfig",
+      config = function()
+        local lspconfig = require('lspconfig')
+        lspconfig.lua_ls.setup ({})
+        lspconfig.rust_analyzer.setup ({})
+        lspconfig.clangd.setup ({})
+        lspconfig.rome.setup({})
+        lspconfig.pyre.setup({})
+        lspconfig.bashls.setup({})
       end
     }
 }
