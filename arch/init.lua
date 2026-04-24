@@ -1,6 +1,8 @@
 require("arch.config")
 require("arch.modules")
+require("arch.auto")
 
-linter()
+
 theme("habamax")
 greet("Alex", "Arch")
+linter()
