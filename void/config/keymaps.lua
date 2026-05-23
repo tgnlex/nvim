@@ -14,7 +14,8 @@ set("n", "<leader>e", "<CMD>Neotree toggle<CR>", {desc="open neotree"})
 set("n", "<leader>r", "<CMD>Neotree focus<CR>", {desc="close neotree"})
 -- SEARCH --
 map("n", "<leader>c", ":nohlsearch<CR>", { desc = "Clear search highlights"})
-
+-- TERMINAL MODE --
+map("n", "<leader>t", ":terminal<CR>")
 -- WINDOW SWITCH --
 map("n", "<C-h>", "<C-w>h", { desc = "Move to left window"})
 map("n", "<C-j>", "<C-w>j", { desc = "Move to bottom window"})
