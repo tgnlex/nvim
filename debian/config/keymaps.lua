@@ -32,9 +32,12 @@ map("n", "<C-Right>", ":vertical resize +2<CR>", {desc = "Increase window width"
 map("n", "<TAB>", ":bn<CR>")
 map("n", "<S-TAB>", ":bp<CR>")
 map("n", "<leader>bd", ":bd<CR>")
+map("n", "<leader>t", ":terminal<CR>")
 -- ################# --
 -- # TERMINAL MODE # --
 -- ################# --
+
+
 map("t", "<C-Up>", "<cmd>resize -2<CR>")
 map("t", "<C-Down>", "<cmd>resize +2<CR>")
 map("t", "<C-Left>", "<cmd>vertical resize-2<CR>")
