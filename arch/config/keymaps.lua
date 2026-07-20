@@ -1,10 +1,15 @@
+
 require('shared.lib.map')
+
 local set = vim.keymap.set
+
 -- ############### --
 -- # NORMAL MODE # --
 -- ############### --
 
 -- BASIC --
+set('n', '<leader>w', '<CMD>w<CR>')
+set('n', '<leader>q','<CMD>qa!<CR>')
 map('n', 'd', '"_d', { desc = "fixing delete key" })
 map("n", "<leader>f", vim.cmd.Ex, { desc="open filesystem"})
 
