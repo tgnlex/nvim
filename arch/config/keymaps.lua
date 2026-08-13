@@ -11,12 +11,11 @@ local set = vim.keymap.set
 set('n', '<leader>w', '<CMD>w<CR>')
 set('n', '<leader>q','<CMD>qa!<CR>')
 map('n', 'd', '"_d', { desc = "fixing delete key" })
-map("n", "<leader>f", vim.cmd.Ex, { desc="open filesystem"})
-
-map("n", "<leader>w", "<CMD>update<CR>", {desc="write to file"})
+set("n", "<F2>", "<CMD>Neotree toggle<CR>", {desc="open neotree"})
+map("n", "<F3>", ":terminal<CR>")
+map("n", "<leader>w", "<:w!<CR>", {desc="write to file"})
 -- NEOTREE --
-set("n", "<leader>e", "<CMD>Neotree toggle<CR>", {desc="open neotree"})
-set("n", "<leader>r", "<CMD>Neotree focus<CR>", {desc="close neotree"})
+
 -- SEARCH --
 map("n", "<leader>c", ":nohlsearch<CR>", { desc = "Clear search highlights"})
 -- TERMINAL MODE --
@@ -43,11 +42,11 @@ map("n", "<leader>bd", ":bd<CR>")
 -- ################# --
 -- # TERMINAL MODE # --
 -- ################# --
-map("t", "<C-Up>", "<cmd>resize -2<CR>")
-map("t", "<C-Down>", "<cmd>resize +2<CR>")
-map("t", "<C-Left>", "<cmd>vertical resize-2<CR>")
-map("t", "<C-Right>", "<cmd>vertical resize+2<CR>")
-
+set("t", "<C-Up>", "<cmd>resize -2<CR>")
+set("t", "<C-Down>", "<cmd>resize +2<CR>")
+set("t", "<C-Left>", "<cmd>vertical resize-2<CR>")
+set("t", "<C-Right>", "<cmd>vertical resize+2<CR>")
+set("t", "<F3>", "<C-d><C-d>")
 ---############### --
 -- # VISUAL MODE # --
 -- ############### --

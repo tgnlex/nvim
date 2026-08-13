@@ -17,6 +17,7 @@ end
 -- ################ --
 -- #   SETTINGS   # --
 -- ################ --
+opt.mouse='a'
 -- COLORS --
 opt.termguicolors = true
 -- LINE NUMBERS --
@@ -29,6 +30,7 @@ opt.wrap = false
 opt.scrolloff = 10
 opt.sidescrolloff = 10
 -- TABS --
+
 opt.tabstop = 2
 opt.shiftwidth = 2
 opt.softtabstop = 2
@@ -59,7 +61,7 @@ opt.pumblend = 5
 -- FLOATING WINDOW --
 opt.winblend = 0
 -- MACROS --
-vim.opt.lazyredraw = true
+opt.lazyredraw = true
 -- CHARS --
 opt.synmaxcol = 300
 opt.fillchars = fillchars
