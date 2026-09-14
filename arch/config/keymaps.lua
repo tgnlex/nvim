@@ -1,5 +1,4 @@
 
-require('shared.lib.map')
 
 local set = vim.keymap.set
 
