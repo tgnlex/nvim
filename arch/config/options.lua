@@ -7,9 +7,8 @@ local fillchars = {eob = " " }
 -- #  UNDODIR SCRIPT  # --
 -- #################### --
 
-local undodir = vim.fn.expand("~/.config/nvim/undodir")
-if 
-  vim.fn.isdirectory(undodir) == 0
+local undodir = vim.fn.expand("~/.config/nvim/undodir") 
+if vim.fn.isdirectory(undodir) == 0
 then
   vim.fn.mkdir(undodir, "p")
 end

@@ -1,3 +1,12 @@
+
+
 return {
-  'brenoprata10/nvim-highlight-colors'
+  'brenoprata10/nvim-highlight-colors',
+  opts = {
+   render = 'background',
+   enable_rgb = true,
+   enable_hsl = true,
+   enable_hex = true,
+   enable_short_hex = true,
+  }
 }
