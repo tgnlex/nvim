@@ -39,6 +39,7 @@ return {
         "go",
         "xonsh",
         "v",
+        "http"
       },
       incremental_selection = {
         enable = true,

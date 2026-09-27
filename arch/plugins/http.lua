@@ -1,6 +1,10 @@
 return {
-  "askfiy/http-client.nvim",
-  config = function()
-    require('http-client').setup()
-  end,
+  "marco-souza/rest.nvim",
+    dependencies = {
+    "MunifTanjim/nui.nvim",
+    "nvim-lua/plenary.nvim"
+  },
+  config = function() 
+    require("rest").setup()
+  end
 }

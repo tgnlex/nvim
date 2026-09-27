@@ -16,6 +16,7 @@ end
 -- ################ --
 -- #   SETTINGS   # --
 -- ################ --
+opt.clipboard = "unnamedplus"
 opt.mouse='a'
 -- COLORS --
 opt.termguicolors = true
@@ -83,4 +84,3 @@ opt.autowrite = true
 opt.mouse = mouse_key
 opt.hidden = true
 opt.modifiable = true
-opt.encoding = encoding
