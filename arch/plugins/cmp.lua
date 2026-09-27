@@ -11,7 +11,6 @@ return {
       "saadparwaiz1/cmp_luasnip",
     },
     config = function()
-      -- Configuration goes here
     end
   }
 }

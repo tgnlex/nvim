@@ -11,8 +11,10 @@ set('n', '<leader>w', '<CMD>w<CR>')
 set('n', '<leader>q','<CMD>qa!<CR>')
 set('n', 'd', '"_d', { desc = "fixing delete key" })
 set("n", "<F2>", "<CMD>Neotree toggle<CR>", {desc="open neotree"})
-set("n", "<F3>", ":terminal<CR>")
 set("n", "<leader>w", "<:w!<CR>", {desc="write to file"})
+
+-- NEO TREE --
+vim.keymap.set('n', '<leader>ef', ':Neotree filesystem focus<CR>')
 -- SEARCH --
 set("n", "<leader>c", ":nohlsearch<CR>", { desc = "Clear search highlights"})
 -- TERMINAL MODE --
